@@ -1,0 +1,20 @@
+[tool.poetry]
+package-mode = false
+
+[project]
+name = "ros2-hello-world"
+version = "0.1.0"
+description = "ROS2 Hello World project with Python dependencies"
+authors = [
+    {name = "Jay Byungkyu Kang",email = "penguinkang@gmail.com"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "pydot (>=4.0.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
